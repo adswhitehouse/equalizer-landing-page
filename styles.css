@@ -62,3 +62,103 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 /* CSS Reset */
+
+/* Variables */
+:root {
+  /* Colors */
+  --cyan: #66e2dc;
+  --orange: #fa7453;
+  --yellow: #ffb964;
+  --white: #fff;
+  --slate: #191826;
+
+  /* Font */
+  --ff-primary: "IBM Plex Sans", sans-serif;
+
+  /* Font Sizes */
+  --fs-1: 5.5rem;
+  --fs-2: 4rem;
+  --fs-3: 2.5rem;
+  --fs-4: 1.25rem;
+  --fs-5: 1.125rem;
+  --fs-6: 1rem;
+
+  /* Font Weights */
+  --fw-1: 700;
+  --fw-2: 400;
+
+  /* Line Heights */
+  --lh-1: 180%;
+  --lh-2: 150%;
+  --lh-3: 110%;
+  --lh-4: 100%;
+
+  /* Letter Spacing */
+  --ls-1: -1px;
+}
+
+/* Utility Classes */
+/* Colors/Background Colors */
+.white {
+  color: var(--white);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.slate {
+  color: var(--slate);
+}
+
+.slate-bg {
+  background-color: var(--slate);
+}
+
+.orange-bg {
+  background-color: var(--orange);
+}
+
+/* Text Presets */
+.tp-1 {
+  font-weight: var(--fw-1);
+  font-size: var(--fs-1);
+  line-height: var(--lh-4);
+  letter-spacing: var(--ls-1);
+}
+
+.tp-2 {
+  font-weight: var(--fw-1);
+  font-size: var(--fs-2);
+  line-height: var(--lh-4);
+}
+
+.tp-3 {
+  font-weight: var(--fw-1);
+  font-size: var(--fs-3);
+  line-height: var(--lh-3);
+}
+
+.tp-4 {
+  font-family: var(--fw-2);
+  font-size: var(--fs-4);
+  line-height: var(--lh-2);
+}
+
+.tp-5 {
+  font-weight: var(--fw-2);
+  font-size: var(--fs-6);
+  line-height: var(--lh-2);
+}
+
+.tp-5-bold {
+  font-weight: var(--fw-1);
+  font-size: var(--fs-6);
+  line-height: var(--lh-2);
+}
+
+.tp-6 {
+  font-weight: var(--fw-1);
+  font-size: var(--fs-5);
+  line-height: var(--lh-1);
+}
