@@ -410,12 +410,11 @@ footer img {
   }
 
   .eq-premium-box {
-    right: unset;
-    border-radius: 0;
     width: 100%;
+    right: 0;
+    border-radius: 0;
     bottom: 0;
     top: unset;
-    position: absolute;
   }
 
   /* Footer */
