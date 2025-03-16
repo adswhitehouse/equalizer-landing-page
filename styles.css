@@ -267,6 +267,7 @@ main {
   border-radius: 0.75rem;
   margin-top: 2rem;
   cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 .eq-premium-box i {
@@ -305,6 +306,21 @@ footer img {
 .social-icons a {
   color: var(--slate);
   font-size: 1.5rem;
+  transition: color 0.25s;
+}
+
+/* Hover states */
+.social-icons a:hover {
+  color: var(--orange);
+}
+
+.ios:hover {
+  background-color: var(--cyan);
+  color: var(--slate);
+}
+
+.android:hover {
+  background-color: var(--yellow);
 }
 
 /* Media Queries */
